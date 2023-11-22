@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-link {
+    margin-inline: 24px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-link a{
+    text-decoration: none;
+    color: azure;
+    font-style: bold;
+}
+.nav-link a:hover {
+    text-shadow: 0px 0px 1
+    5px #ffffff;
+    background-color: rgba(255, 255, 255, 0.034);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: azure;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.75%;
+    background-color: rgb(26, 26, 26);
+}
+.footer li {
+    font-size: 150%;
+    list-style: none;
+}
+.instagram:hover {
+    background: -webkit-linear-gradient(#405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #FD1D1D, #777737, #FCAF45, #FFDC80);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.twitter:hover {
+    background: -webkit-linear-gradient(#1DA1F2, #1DA1F2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.facebook:hover {
+    background: -webkit-linear-gradient(#4267B2, #4267B2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #6f2da8;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #8a4ed1;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #5127b1;
+}

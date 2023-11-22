@@ -1,0 +1,48 @@
+form {
+    color: white;
+    margin: 0.5em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 30px #6f2da8;
+    padding: 1em;
+    border-radius: 1em;
+}
+form label, form select, form input {
+    margin-top: 0.5em;
+    width: 100%;
+}
+.reg {
+    display: flex;
+    justify-content: center;
+}
+form label {
+    font-weight: bold;
+}
+form label a{
+    font-weight: normal;
+}
+form input, form select {
+    padding: 0.1em;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px #6f2da879;
+    border-radius: 5px;
+}
+.terms, .robot {
+    display: inline-flex;
+    padding: 0.2em;
+    font-size: 15px;
+}
+.terms input, .robot input {
+    width: 1em;
+    margin-right: 1em;
+}
+form button {
+    color: white;
+    background-color: black;
+    border: solid 2px  -webkit-linear-gradient(black, #6f2da8);
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 0.5em;
+}
